@@ -1,0 +1,51 @@
+@media only screen and (min-width: 800px) {
+    .directMessageMain .table {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .directMessageMain .table {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .directMessageMain .table {
+        width: 90%;
+    }
+} 
+
+.directMessageMain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    float: right;
+    overflow-x: hidden;
+    background-color:darkslateblue;
+}
+
+.directMessageMain .table {
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.directMessageMain td{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #cce6ff;
+    border-radius: 20px;
+    width: 75%;
+    height: 40px;
+    border: 1px;
+}
+
+.directMessageMain .title {
+    font-weight: bold;
+}
+

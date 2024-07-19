@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1200px) {
+    .Sidebar{
+        width: 20%;
+    }
+    .SBmain{
+        width: 80%;
+    }
+    .SBoverlay{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .Sidebar{
+        width: 30%;
+    }
+    .SBmain{
+        width: 70%;
+    }
+    .SBoverlay{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .Sidebar{
+        width: 35%;
+    }
+    .SBmain{
+        width: 65%;
+    }
+    .SBoverlay{
+        width: 65%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .Sidebar{
+        width: 50%;
+    }
+    .SBmain{
+        width: 80%;
+    }
+    .SBoverlay{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Sidebar{
+        width: 80%;
+    }
+    .SBmain{
+        width: 100%;
+    }
+    .SBoverlay{
+        width: 20%;
+    }
+} 
+
+.Sidebar{
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.SidebarHidden{
+    height: 0%;
+    width: 0%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.Sidebar table{
+    padding: 5px;
+    width: 100%;
+    background-color:#cce6ff;
+}
+
+.Sidebar .thleft{
+    text-align: start;
+}
+
+.Sidebar .thright{
+    text-align: end;
+}
+
+.Sidebar ul {
+    padding: 0px;
+}
+
+.Sidebar li {
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.Sidebar li:hover {
+    background-color:#cce6ff;
+}
+
+.Sidebar button {
+    background-color: white;
+    width: 30%;
+    height: 40px;
+    border: solid;
+    border-radius: 20px;
+    border-color: #cce6ff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Sidebar button:hover {
+    border-width: 5px;
+}
+
+.Sidebar button:active {
+    background-color: #cce6ff;
+}
+
+.hideButton {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    height: 40px;
+    border: solid;
+    border-left: 0px;
+    border-radius: 0px 20px 20px 0px;
+    border-color: #cce6ff;
+    width: 60px;
+    left: 0px;
+}
+
+.hideButton:hover {
+    border-width: 5px;
+}
+
+.hideButton:active {
+    background-color: #cce6ff;
+}
+
+.SBcontainer {
+    height: 100%;
+}
+
+.SBoverlay {
+    position: relative;
+    float: right;
+}
+
+.SBmain{
+    float: right;
+}
+
+.SBmainFull{
+    width: 100%;
+    float: right;
+}

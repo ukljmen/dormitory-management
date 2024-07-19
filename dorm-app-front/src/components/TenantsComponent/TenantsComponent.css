@@ -1,0 +1,14 @@
+.TenantsComponent {
+  max-width: 500px;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid #ddd;
+}
+
+.TenantsComponent .btn-add-tenant {
+  display: block;
+  margin-left: auto;
+}
+
+.TenantsComponent ul {
+  list-style-type: circle;
+}
