@@ -1,0 +1,8 @@
+@DormAPI_HostAddress = http://localhost:26800
+
+//fajny bajer, moze skorzystamy ale lepiej zrobic testy integracyjne
+
+//GET {{DormAPI_HostAddress}}/weatherforecast/
+//Accept: application/json
+
+###
